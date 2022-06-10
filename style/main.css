@@ -1,0 +1,43 @@
+body {
+    background-color: #FFF;
+}
+
+.menuWrap {
+    position: absolute;
+    top: calc(50% - 340px);
+    left: calc(50% + 298px);
+    width: 800px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+.menuLink {
+    font-size: 20px;
+    color: #E0E0E0;
+    text-decoration: none;
+    transition-duration: 1.5s;
+    font-weight: bold;
+    padding: 5px;
+    background-color:inherit;
+}
+.menuLink:hover {
+    color: pink;
+    transform: rotate(1080deg)
+}
+
+#contentFrame {
+    width: 800px;
+    height: 600px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #E0E0E0;
+    padding: 0px;
+    margin: auto;
+    transition-duration: 1.5s;
+    box-sizing: border-box;
+}
+#contentFrame:hover {
+    border: 1px solid pink;
+}
