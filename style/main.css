@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF;
+    background-color: black;
 }
 
 .menuWrap {
@@ -13,16 +13,18 @@ body {
 }
 .menuLink {
     font-size: 20px;
-    color: #E0E0E0;
+    color: black;
     text-decoration: none;
     transition-duration: 1.5s;
     font-weight: bold;
     padding: 5px;
     background-color:inherit;
+    text-shadow: -1px -1px 0 cyan, 1px -1px 0 cyan, -1px 1px 0 cyan, 1px 1px 0 cyan;
 }
 .menuLink:hover {
-    color: pink;
-    transform: rotate(1080deg)
+    color: cyan;
+    transform: rotate(1080deg);
+    text-shadow: 0 0 20px cyan;
 }
 
 #contentFrame {
@@ -32,12 +34,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid #E0E0E0;
+    border: 1px solid cyan;
     padding: 0px;
     margin: auto;
     transition-duration: 1.5s;
     box-sizing: border-box;
-}
-#contentFrame:hover {
-    border: 1px solid pink;
+    box-shadow: 0 0 10px cyan;
 }
